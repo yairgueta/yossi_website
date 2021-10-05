@@ -1,26 +1,25 @@
 .HomeScreen {
-  width: available;
-  height: 500px;
+  width: 100%;
+  height: 20rem;
 }
 
 img {
   height: 100%;
   width: 100%;
-  max-width: available;
   object-fit: cover;
 }
 
 .header {
   position: relative;
-  top: -370px;
+  top: -16rem;
 }
 
 .header-tag {
   float: right;
-  margin-right: 30px;
+  margin-right: 2rem;
 }
 
 .badge {
   background: rgba(89, 89, 89, 0.7);
-  padding: 7px !important;
+  padding: .5rem !important;
 }

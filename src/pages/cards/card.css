@@ -1,0 +1,16 @@
+.card_ {
+  --secondary_color: #D1D1D1;
+  background: hsla(0, 0%, 45%, 0.7);
+  border-top: 3.5px solid var(--secondary_color);
+  color: white;
+  width: 15rem;
+  height: 9rem;
+}
+
+.icon {
+  color: var(--secondary_color);
+}
+
+p {
+  font-size: .7em;
+}
