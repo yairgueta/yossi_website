@@ -9,7 +9,7 @@ const CardsContainer = props => {
     return (
         <div className="cards-container d-flex w-100 align-items-center
                         flex-column justify-content-between
-                        flex-md-row-reverse justify-content-md-evenly">
+                        flex-md-row justify-content-md-evenly">
             <Card title={"משהו מפרגן"} icon={<FaTools/>}>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לפרומי בלוף קינץ תתיח לרעח. </Card>
             <Card title={"פרגון נוסף"} icon={<FaStar/>}> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. </Card>
             <Card title={"פרגונים"} icon={<FaMedal/>}>לורם איפסום דולור סיט אמט, קולהע צופעט</Card>
