@@ -1,15 +1,17 @@
 import React from 'react';
 import bg from '../../images/first-bg.jpeg'
 import "./HomeScreen.css"
+import ContactContainer from "../Contact/ContactContainer";
 
 
 const HomeScreen = props => {
     return (
-        <div className="HomeScreen">
-            <img src={bg}/>
-            <h1 className="header">
+        <div className="HomeScreen d-flex justify-content-center flex-column align-items-center">
+            <img className="w-100" src={bg}/>
+            <h1 className="header align-items-start ms-auto">
                 <span className="header-tag badge">המרכז הארצי לאיטום ובידוד</span>
             </h1>
+            <ContactContainer/>
         </div>
     );
 };

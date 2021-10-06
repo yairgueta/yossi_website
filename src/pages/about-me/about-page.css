@@ -1,0 +1,19 @@
+img {
+  mask-image: linear-gradient(to left, #ffffffff, #ffffffff, #ffffff00);
+  width: 50%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.about-main {
+  position: relative;
+}
+
+.about-screen {
+  position: absolute;
+  top: 15%;
+  right: 37%;
+  width: 50%;
+  height: 70%;
+  background: white;
+}
