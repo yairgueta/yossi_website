@@ -22,7 +22,7 @@ const Card = ({title, icon, children}) => {
 
 Card.propTypes = {
     title: PropTypes.string,
-    icon: IconBase
+    icon: PropTypes.any
 };
 
 export default Card;
