@@ -18,7 +18,7 @@ const Carousel = ({imagesData}) => {
 
             <div className="carousel-inner h-100">
                 {imagesData.map((id, i) =>
-                    <div className={"carousel-item" + (i === 0 ? " active" : "")}>
+                    <div className={"carousel-item" + (i === 0 ? " active" : "")} key={i}>
                         <img src={"https://picsum.photos/500/500?random=" + i} className="d-block w-100 h-100"
                              alt={id.alt}/>
                         {/*<img src={id.src} className="d-block w-100" alt={id.alt}/>*/}

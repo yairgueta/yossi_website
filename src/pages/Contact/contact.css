@@ -1,6 +1,25 @@
 .contact-shadow {
-  width: 19rem;
   height: 3rem;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 10rem;
+  z-index: -1;
+}
+
+.contact-item {
+  ---animation-dur: 300ms;
+  --animation-color: #ffffff;
+  transition: transform ease-in var(---animation-dur);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.contact-item:hover {
+  z-index: 100;
+  color: var(--animation-color);
+  transform: scale(1.2);
+  transition: transform ease-out var(---animation-dur);
+}
+
+a {
+  color: unset;
 }

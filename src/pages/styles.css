@@ -1,4 +1,10 @@
 * {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   direction: rtl;
+  scroll-padding-top: 4rem;
 }
+
+.secondary-page {
+  background: url("../images/second-bg.jpeg");
+}
+
