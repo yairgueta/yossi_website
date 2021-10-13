@@ -3,7 +3,7 @@ import HomeScreen from "./home-screen/HomeScreen";
 import CardsContainer from "./cards/CardsContainer";
 import "./styles.css"
 import Carousel from "./carousel/Carousel";
-import {carouselImages} from "./carousel/CarouselImages"
+import {carouselImages} from "../images/carousel/CarouselImages"
 import AboutPage from "./about-me/AboutPage";
 import {secondBg} from "../images/second-bg.jpeg"
 import Navbar from "./nav/Navbar";

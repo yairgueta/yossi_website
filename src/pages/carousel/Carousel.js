@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "./carousel.css"
-import {carouselImages} from "./CarouselImages";
+import {carouselImages} from "../../images/carousel/CarouselImages";
 
 const Carousel = ({imagesData}) => {
     return (
