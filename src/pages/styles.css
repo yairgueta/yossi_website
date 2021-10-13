@@ -6,5 +6,6 @@
 
 .secondary-page {
   background: url("../images/second-bg.jpeg");
+  background-size: cover;
 }
 
