@@ -16,7 +16,7 @@ const IndexPage = () => {
                 <title>המרכז הארצי לאיטום ובידוד</title>
                 <Navbar/>
                 <HomeScreen/>
-                <div className="secondary-page d-flex align-items-center justify-content-center flex-column">
+                <div className="secondary-page d-flex align-items-center justify-content-center flex-column w-100">
                     <div id="gallery" className="mt-2">
                         <Carousel/>
                     </div>
