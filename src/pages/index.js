@@ -18,7 +18,7 @@ const IndexPage = () => {
                 <HomeScreen/>
                 <div className="secondary-page d-flex align-items-center justify-content-center flex-column">
                     <div id="gallery" className="mt-2">
-                        <Carousel imagesData={carouselImages}/>
+                        <Carousel/>
                     </div>
                     <div id="cards" className="w-100 mt-3">
                         <CardsContainer/>

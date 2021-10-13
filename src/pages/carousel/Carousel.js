@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import "./carousel.css"
 import {carouselImages} from "../../images/carousel/CarouselImages";
 
-const Carousel = ({imagesData}) => {
+const Carousel = () => {
     return (
         <div id="carousel" className="card carousel slide p-2" data-bs-ride="carousel">
 
             <div className="carousel-indicators">
-                {imagesData.map((id, i) => {
-                        i = imagesData.length - i - 1;
+                {carouselImages.map((id, i) => {
+                        i = carouselImages.length - i - 1;
                         return <button type="button" data-bs-target="#carousel"
                                        data-bs-slide-to={i.toString()}
                                        className={i === 0 ? "active" : ""} aria-current={i === 0 ? "true" : ""} key={i}/>
