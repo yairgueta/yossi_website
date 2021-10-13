@@ -3,13 +3,13 @@
 }
 
 #carousel {
-  width: 600px;
+  width: 800px;
   height: 450px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 950px){
   #carousel {
     width: 80vw;
-    height: 60vw;
+    height: 45vw;
   }
 }

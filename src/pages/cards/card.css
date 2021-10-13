@@ -4,15 +4,27 @@
   border: 3.5px solid white;
   border-radius: 2rem;
   color: white;
-  width: 15rem;
-  height: 9rem;
+
+  width: 25vw;
+  height: 15vw;
   box-shadow: 5px 5px 15px #8f8f8f;
+}
+
+@media only screen and (max-width: 768px){
+  .card_ {
+    width: 15rem;
+    height: 9rem;
+  }
+
+  .card_ p {
+    font-size: 1.5vw !important;
+  }
 }
 
 .icon {
   color: var(--secondary_color);
 }
 
-p {
-  font-size: .7em;
+.card_ p {
+  font-size: 1vw;
 }
