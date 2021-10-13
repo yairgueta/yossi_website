@@ -3,7 +3,7 @@ import p2 from "../../images/carousel/80574068_105838787595950_26450445668806819
 import p3 from "../../images/carousel/81105468_111386963707799_4206748032085000192_n.jpeg"
 import p4 from "../../images/carousel/81383934_111386703707825_8557979245043777536_n.jpeg"
 
-const carouselImages = [
+export const carouselImages = [
     {
         src: p1,
         alt: "pic"
@@ -21,5 +21,3 @@ const carouselImages = [
         alt: "pic"
     }
 ]
-
-export {carouselImages};

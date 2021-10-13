@@ -1,4 +1,4 @@
-img {
+.about-left-bg {
   mask-image: linear-gradient(to left, #ffffffff, #ffffffff, #ffffff00);
   width: 50%;
   user-select: none;
@@ -10,6 +10,7 @@ img {
 }
 
 .about-screen {
+  font-size: 2vw;
   position: absolute;
   top: 15%;
   right: 37%;

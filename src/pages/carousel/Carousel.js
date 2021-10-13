@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "./carousel.css"
+import {carouselImages} from "./CarouselImages";
 
 const Carousel = ({imagesData}) => {
     return (
-        <div id="carousel" className="carousel slide w-100 p-2" data-bs-ride="carousel">
+        <div id="carousel" className="card carousel slide p-2" data-bs-ride="carousel">
 
             <div className="carousel-indicators">
                 {imagesData.map((id, i) => {
@@ -16,8 +17,8 @@ const Carousel = ({imagesData}) => {
                 )}
             </div>
 
-            <div className="carousel-inner h-100">
-                {imagesData.map((id, i) =>
+            <div className="carousel-inner h-100 w-100">
+                {carouselImages.map((id, i) =>
                     <div className={"carousel-item" + (i === 0 ? " active" : "")} key={i}>
                         <img src={"https://picsum.photos/500/500?random=" + i} className="d-block w-100 h-100"
                              alt={id.alt}/>
