@@ -1,7 +1,22 @@
 import React from 'react';
 import {FaHome} from '@react-icons/all-files/fa/FaHome'
 
-const Navbar = ({links}) => {
+const Navbar = () => {
+    const links = [
+        {
+            name: "גלריית תמונות",
+            id: "gallery",
+        },
+        {
+            name: "השירות",
+            id: "cards",
+        },
+        {
+            name: "על עצמי",
+            id: "about",
+        },
+
+    ]
     return (
         <nav id="navbar" className="navbar sticky-top navbar-expand-md navbar-light bg-light w-100">
             <div className="container-fluid">
