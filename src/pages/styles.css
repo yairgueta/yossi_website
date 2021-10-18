@@ -3,6 +3,11 @@
   direction: rtl;
   scroll-padding-top: 4rem;
 }
+@media only screen and (max-width: 768px) {
+  * {
+    scroll-padding-top: 10rem;
+  }
+}
 
 .secondary-page {
   background: url("../images/second-bg.jpeg");

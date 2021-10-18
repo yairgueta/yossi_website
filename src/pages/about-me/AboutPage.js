@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about-page.css"
 import pic from "../../images/yossi-pic.jpeg"
-import {Textfit} from 'react-textfit';
 
 const AboutPage = props => {
     return (

@@ -24,8 +24,8 @@ const Navbar = () => {
                 <div className="navbar-brand" onClick={()=>window.scrollTo({top: 0, behavior: 'smooth'})}><FaHome/></div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                        aria-label="Toggle navigation" >
+                    <span className="navbar-toggler-icon"/>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav navbar-nav-scroll" style={{"--bs-scroll-height": "100px"}}>

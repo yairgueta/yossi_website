@@ -3,12 +3,18 @@ import HomeScreen from "./home-screen/HomeScreen";
 import CardsContainer from "./cards/CardsContainer";
 import "./styles.css"
 import Carousel from "./carousel/Carousel";
-import {carouselImages} from "../images/carousel/CarouselImages"
 import AboutPage from "./about-me/AboutPage";
-import {secondBg} from "../images/second-bg.jpeg"
 import Navbar from "./nav/Navbar";
+import Footer from "./footer/Footer";
+import "animate.css/animate.min.css";
+import {useEffect} from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const IndexPage = () => {
+    useEffect(()=>{
+        AOS.init();
+    }, [])
     return (
         <main>
             <div className="d-flex align-items-center justify-content-center flex-column">
@@ -27,6 +33,8 @@ const IndexPage = () => {
                         <AboutPage/>
                     </div>
                 </div>
+
+                <Footer/>
             </div>
         </main>
     )

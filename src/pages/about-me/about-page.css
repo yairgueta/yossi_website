@@ -15,7 +15,7 @@
   right: 37%;
   width: 50%;
   height: 70%;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 p {
@@ -24,6 +24,12 @@ p {
 
 @media only screen and (max-width: 768px) {
   p {
-    font-size: .5rem;
+    font-size: .6rem;
+  }
+
+  .about-screen {
+    width: 75%;
+    right: 20%;
+    overflow: scroll;
   }
 }
