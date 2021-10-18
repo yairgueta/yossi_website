@@ -14,7 +14,7 @@ const ContactContainer = props => {
         <ContactItem icon={<RiWhatsappFill/>} link={"https://wa.me/972545228088"} iconColor="#25D366"/>,
         <ContactItem icon={<FaPhone/>} link={"tel:0545228088"} iconColor="#000"/>,
         <ContactItem icon={<FaSms/>} link={"sms:0545228088"} iconColor="#0D7EF7FF"/>,
-        <ContactItem icon={<MdEmail/>} link={"mail:"} iconColor="#CF4B3DFF"/>,
+        <ContactItem icon={<MdEmail/>} link={"mailto:"} iconColor="#CF4B3DFF"/>,
     ]
 
     return (

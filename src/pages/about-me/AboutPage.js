@@ -6,7 +6,7 @@ const AboutPage = props => {
     return (
         <div className="about-main w-100">
             <img className="about-left-bg w-50" src={pic}/>
-            <div className="about-screen px-2 py-1 d-flex flex-column">
+            <div className="about-screen px-2 py-1 d-flex flex-column" data-aos="zoom-in" data-aos-duration="1000">
                 <h2>על עצמי</h2>
                 <p> דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו
                     וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף.
