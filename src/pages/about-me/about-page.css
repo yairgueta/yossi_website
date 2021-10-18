@@ -10,11 +10,20 @@
 }
 
 .about-screen {
-  font-size: 1.3vw;
   position: absolute;
   top: 15%;
   right: 37%;
   width: 50%;
   height: 70%;
   background: white;
+}
+
+p {
+  font-size: .8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: .5rem;
+  }
 }

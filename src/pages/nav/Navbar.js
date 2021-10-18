@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaHome} from '@react-icons/all-files/fa/FaHome'
+import './navbar.css'
 
 const Navbar = () => {
     const links = [
@@ -35,6 +36,9 @@ const Navbar = () => {
                         )}
 
                     </ul>
+                </div>
+                <div className="contact-number">
+                    יוסי - <a href="tel:tel:0545228088">054-522-8088</a>
                 </div>
             </div>
         </nav>
